@@ -1,0 +1,2 @@
+hypothesis_id,n,effect,ci95_low,ci95_high,p_raw,cohen_dz,test,notes,study_id,p_holm,reject_or_support
+H24,40,0.00099,0.0006183943695052716,0.0013616056304947284,3.1044436477096314e-06,0.825617680176373,greater,governance > frozen,3,3.1044436477096314e-06,True
