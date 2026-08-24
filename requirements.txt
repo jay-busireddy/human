@@ -1,0 +1,47 @@
+# Humanizing Control v1.4.1 - Python 3.10 / Windows compatibility
+#
+# IMPORTANT: Safety-Gymnasium 1.0.0 is kept on the previously validated
+# Gymnasium/Gymnasium-Robotics stack. gymnasium-robotics==1.2.2 requires
+# NumPy >=1.21,<1.24, so NumPy is deliberately pinned to 1.23.5.
+
+numpy==1.23.5
+pandas>=2.2,<3.0
+scipy>=1.12,<1.16
+matplotlib>=3.8,<3.11
+scikit-learn>=1.4,<1.8
+
+torch>=2.2
+torchvision>=0.17
+
+# Safety-Gymnasium 1.0.0 validated stack
+gymnasium==0.28.1
+gymnasium-robotics==1.2.2
+pygame==2.1.0
+mujoco==2.3.3
+xmltodict>=0.13.0
+imageio>=2.27.0
+safety-gymnasium==1.0.0
+
+# DINOv3 local torch.hub dependencies
+torchmetrics>=1.0
+omegaconf>=2.3
+ftfy>=6.1
+regex>=2023.0
+submitit>=1.5
+termcolor>=2.3
+
+# Optional alternate DINOv3 loading/support path
+transformers>=4.56.0
+huggingface-hub>=0.34
+accelerate>=1.0
+
+Pillow>=10
+PyYAML>=6
+requests>=2.31
+web3>=7.0
+eth-account>=0.13
+py-solc-x>=2.0
+
+# Intel Xe acceleration for frozen DINOv3 inference.
+# OpenVINO accepts NumPy 1.23.5 on Python 3.10.
+openvino>=2025.0,<2027

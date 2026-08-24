@@ -1,0 +1,65 @@
+{
+  "seed_counts": {
+    "smoke": 4,
+    "study1_confirmatory": 60,
+    "study2_confirmatory": 40,
+    "study3_confirmatory": 40
+  },
+  "seed_starts": {
+    "study1": 1000,
+    "study2": 2000,
+    "study3": 3000
+  },
+  "study1": {
+    "train_samples_smoke": 4000,
+    "train_samples_confirmatory": 20000,
+    "epochs_smoke": 12,
+    "epochs_confirmatory": 25
+  },
+  "study2": {
+    "frames_smoke": 240,
+    "frames_confirmatory": 12000,
+    "probe_epochs_smoke": 5,
+    "probe_epochs_confirmatory": 12,
+    "delayed_train_smoke": 900,
+    "delayed_train_confirmatory": 12000,
+    "continual_steps_smoke": 120,
+    "continual_steps_confirmatory": 1200,
+    "rl_updates_smoke": 8,
+    "rl_updates_confirmatory": 120,
+    "rl_horizon": 96,
+    "world_model_random_steps_smoke": 500,
+    "world_model_random_steps_confirmatory": 8000
+  },
+  "study3": {
+    "proposals_smoke": 400,
+    "proposals_confirmatory": 5000,
+    "network_window_smoke_s": 8,
+    "network_window_confirmatory_s": 30,
+    "partition_durations_smoke_s": [
+      2,
+      4
+    ],
+    "partition_durations_confirmatory_s": [
+      5,
+      15,
+      30,
+      60
+    ]
+  },
+  "smoke_seed_starts": {
+    "study1": 900000,
+    "study2": 901000,
+    "study3": 902000
+  },
+  "optimized_execution": {
+    "study2_checkpoint_each_seed": true,
+    "study2_dino_batch_default": 128,
+    "study3_parallel_lanes": 2,
+    "study3_lane1_rpc_base": 8545,
+    "study3_lane2_rpc_base": 8645,
+    "study3_lane1_p2p_base": 30303,
+    "study3_lane2_p2p_base": 30403,
+    "scientific_load_reduced": false
+  }
+}
