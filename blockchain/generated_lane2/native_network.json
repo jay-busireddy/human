@@ -1,0 +1,47 @@
+{
+  "mode": "windows-native-local-processes",
+  "genesis": "C:\\Users\\428457\\ML-Class\\Sp25ML\\homework-1\\Humanizing_Control_Full_H1-H24_v1_4_3_WindowsNative\\blockchain\\generated_lane2\\genesis.json",
+  "bootnode": "enode://95836ca2d6cfb912702c0884631033e908a37df3725a7ae619d37413083006aa8832e7f38f5fdadfee20a70990e8731bc94919f538894bb8468261042ad3376e@127.0.0.1:30403",
+  "bootnodes_file": "C:\\Users\\428457\\ML-Class\\Sp25ML\\homework-1\\Humanizing_Control_Full_H1-H24_v1_4_3_WindowsNative\\blockchain\\generated_lane2\\bootnodes.txt",
+  "chain_id": 1338,
+  "rpc_base": 8645,
+  "p2p_base": 30403,
+  "lane": "2",
+  "nodes": {
+    "1": {
+      "data_path": "C:\\Users\\428457\\ML-Class\\Sp25ML\\homework-1\\Humanizing_Control_Full_H1-H24_v1_4_3_WindowsNative\\blockchain\\generated_lane2\\node1\\data",
+      "p2p_port": 30403,
+      "rpc_port": 8645
+    },
+    "2": {
+      "data_path": "C:\\Users\\428457\\ML-Class\\Sp25ML\\homework-1\\Humanizing_Control_Full_H1-H24_v1_4_3_WindowsNative\\blockchain\\generated_lane2\\node2\\data",
+      "p2p_port": 30404,
+      "rpc_port": 8646
+    },
+    "3": {
+      "data_path": "C:\\Users\\428457\\ML-Class\\Sp25ML\\homework-1\\Humanizing_Control_Full_H1-H24_v1_4_3_WindowsNative\\blockchain\\generated_lane2\\node3\\data",
+      "p2p_port": 30405,
+      "rpc_port": 8647
+    },
+    "4": {
+      "data_path": "C:\\Users\\428457\\ML-Class\\Sp25ML\\homework-1\\Humanizing_Control_Full_H1-H24_v1_4_3_WindowsNative\\blockchain\\generated_lane2\\node4\\data",
+      "p2p_port": 30406,
+      "rpc_port": 8648
+    },
+    "5": {
+      "data_path": "C:\\Users\\428457\\ML-Class\\Sp25ML\\homework-1\\Humanizing_Control_Full_H1-H24_v1_4_3_WindowsNative\\blockchain\\generated_lane2\\node5\\data",
+      "p2p_port": 30407,
+      "rpc_port": 8649
+    },
+    "6": {
+      "data_path": "C:\\Users\\428457\\ML-Class\\Sp25ML\\homework-1\\Humanizing_Control_Full_H1-H24_v1_4_3_WindowsNative\\blockchain\\generated_lane2\\node6\\data",
+      "p2p_port": 30408,
+      "rpc_port": 8650
+    },
+    "7": {
+      "data_path": "C:\\Users\\428457\\ML-Class\\Sp25ML\\homework-1\\Humanizing_Control_Full_H1-H24_v1_4_3_WindowsNative\\blockchain\\generated_lane2\\node7\\data",
+      "p2p_port": 30409,
+      "rpc_port": 8651
+    }
+  }
+}
