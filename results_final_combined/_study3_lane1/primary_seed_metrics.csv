@@ -1,0 +1,17 @@
+study_id,hypothesis_id,seed,arm,primary_metric,primary_value,run_valid
+3,H22,3000,QBFT,negative_conflicting_finality,-0.0,True
+3,H22,3001,QBFT,negative_conflicting_finality,-0.0,True
+3,H22,3002,QBFT,negative_conflicting_finality,-0.0,True
+3,H22,3003,QBFT,negative_conflicting_finality,-0.0,True
+3,H22,3004,QBFT,negative_conflicting_finality,-0.0,True
+3,H22,3005,QBFT,negative_conflicting_finality,-0.0,True
+3,H22,3006,QBFT,negative_conflicting_finality,-0.0,True
+3,H22,3007,QBFT,negative_conflicting_finality,-0.0,True
+3,H22,3008,QBFT,negative_conflicting_finality,-0.0,True
+3,H22,3009,QBFT,negative_conflicting_finality,-0.0,True
+3,H22,3010,QBFT,negative_conflicting_finality,-0.0,True
+3,H22,3011,QBFT,negative_conflicting_finality,-0.0,True
+3,H22,3012,QBFT,negative_conflicting_finality,-0.0,True
+3,H22,3013,QBFT,negative_conflicting_finality,-0.0,True
+3,H22,3014,QBFT,negative_conflicting_finality,-0.0,True
+3,H22,3015,QBFT,negative_conflicting_finality,-0.0,True
